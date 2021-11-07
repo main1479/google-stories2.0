@@ -27,7 +27,7 @@ export default function HeroPhoneBlock() {
 				},
 			});
 			tl.to(phoneRef.current, { scale: 1.2 }, '+=0.2');
-			tl.to('.hero-container', { backgroundColor: '#05142B' });
+			tl.to('.hero-container', { backgroundColor: '#05142B' }, '-=0.5');
 			return tl;
 		};
 		master.add(startTrigger());
